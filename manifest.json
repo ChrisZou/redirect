@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Redirect",
+  "description": "An extension that will Redirect you from one url to another",
+  "version": "1.0",
+
+  "permissions": [
+    "tabs"
+  ],
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
